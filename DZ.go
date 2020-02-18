@@ -9,9 +9,9 @@ func main() {
 	var chislo int
 	fmt.Println("Введите число")
 	fmt.Scan(&chislo)
-	if chislo%3 == 0 {
-		fmt.Println(chislo, "делится на 3")
+	if chislo%2 == 0 {
+		fmt.Println(chislo, "число четное")
 	} else {
-		fmt.Println(chislo, "не делится на 3")
+		fmt.Println(chislo, "число не четное")
 	}
 }
